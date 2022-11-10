@@ -6,6 +6,19 @@
     android:background="#C2E816"
     tools:context=".FragmentKeranjang">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp">
 
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Toast"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
 
+    </RelativeLayout>
 </FrameLayout>
